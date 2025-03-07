@@ -1,0 +1,263 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.4\examples\bluetooth\esp_ble_mesh\sensor_models\sensor_server\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5150 bytes. 0x2eb0 bytes (36%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:69:1: warning: missing initializer for member 'esp_ble_mesh_cfg_srv_t::model' [-Wmissing-field-initializers]
+   69 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:69:1: warning: missing initializer for member 'esp_ble_mesh_cfg_srv_t::heartbeat_pub' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:69:1: warning: missing initializer for member 'esp_ble_mesh_cfg_srv_t::heartbeat_sub' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::setting_count' [-Wmissing-field-initializers]
+  121 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::settings' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::cadence' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::series_column' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::setting_count' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::settings' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::cadence' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::series_column' [-Wmissing-field-initializers]
+In file included from C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:18:
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::model' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::publish_addr' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::app_idx' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::cred' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::send_rel' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::send_szmic' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::ttl' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::retransmit' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period_div' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::fast_period' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::count' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period_start' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::timer' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:132:1: warning: missing initializer for member 'esp_ble_mesh_sensor_srv_t::model' [-Wmissing-field-initializers]
+  132 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:132:1: warning: missing initializer for member 'esp_ble_mesh_server_rsp_ctrl_t::status_auto_rsp' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::model' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::publish_addr' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::app_idx' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::cred' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::send_rel' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::send_szmic' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::ttl' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::retransmit' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period_div' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::fast_period' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::count' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period_start' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::timer' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:142:1: warning: missing initializer for member 'esp_ble_mesh_sensor_setup_srv_t::model' [-Wmissing-field-initializers]
+  142 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:142:1: warning: missing initializer for member 'esp_ble_mesh_server_rsp_ctrl_t::status_auto_rsp' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element_idx' [-Wmissing-field-initializers]
+  148 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::model_idx' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::flags' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element_idx' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::model_idx' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::flags' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element_idx' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::model_idx' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::flags' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:152:1: warning: missing initializer for member 'esp_ble_mesh_elem_t::element_addr' [-Wmissing-field-initializers]
+  152 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:158:1: warning: missing initializer for member 'esp_ble_mesh_comp_t::pid' [-Wmissing-field-initializers]
+  158 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:158:1: warning: missing initializer for member 'esp_ble_mesh_comp_t::vid' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::uri' [-Wmissing-field-initializers]
+  162 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::oob_info' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::oob_pub_key' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::oob_pub_key_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::oob_type' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::static_val' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::static_val_len' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::output_size' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::output_actions' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::input_size' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::input_actions' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::output_num_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::output_str_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::input_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::link_open_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::link_close_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::complete_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::reset_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp: In function 'void example_ble_mesh_send_sensor_descriptor_status(esp_ble_mesh_sensor_server_cb_param_t*)':
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:254:53: warning: missing initializer for member 'example_sensor_descriptor::pos_tolerance' [-Wmissing-field-initializers]
+  254 |     struct example_sensor_descriptor descriptor = {0};
+      |                                                     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:254:53: warning: missing initializer for member 'example_sensor_descriptor::neg_tolerance' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:254:53: warning: missing initializer for member 'example_sensor_descriptor::sample_func' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:254:53: warning: missing initializer for member 'example_sensor_descriptor::measure_period' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:254:53: warning: missing initializer for member 'example_sensor_descriptor::update_interval' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp: In function 'void example_ble_mesh_send_sensor_setting_status(esp_ble_mesh_sensor_server_cb_param_t*)':
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:355:47: warning: missing initializer for member 'example_sensor_setting::sensor_setting_prop_id' [-Wmissing-field-initializers]
+  355 |     struct example_sensor_setting setting = {0};
+      |                                               ^
+[5/9] Linking C static library esp-idf\main\libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable sensor_server.elf
+FAILED: sensor_server.elf 
+C:\Windows\system32\cmd.exe /C "cd . && C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20241119\riscv32-esp-elf\bin\riscv32-esp-elf-g++.exe -march=rv32imc_zicsr_zifencei -nostartfiles -march=rv32imc_zicsr_zifencei --specs=nosys.specs    -Wl,--cref -Wl,--defsym=IDF_TARGET_ESP32C3=0 -Wl,--Map=C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/build/sensor_server.map -Wl,--no-warn-rwx-segments -Wl,--orphan-handling=warn -fno-rtti -fno-lto -Wl,--gc-sections -Wl,--warn-common -T rom.api.ld -T esp32c3.peripherals.ld -T esp32c3.rom.ld -T esp32c3.rom.api.ld -T esp32c3.rom.bt_funcs.ld -T esp32c3.rom.libgcc.ld -T esp32c3.rom.version.ld -T esp32c3.rom.eco3.ld -T esp32c3.rom.eco3_bt_funcs.ld -T esp32c3.rom.newlib.ld -T memory.ld -T sections.ld @CMakeFiles\sensor_server.elf.rsp -o sensor_server.elf && cd ."
+C:/Espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld.exe: esp-idf/freertos/libfreertos.a(app_startup.c.obj): in function `main_task':
+C:/Espressif/frameworks/esp-idf-v5.4/components/freertos/app_startup.c:206:(.text.main_task+0x6e): undefined reference to `app_main'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.

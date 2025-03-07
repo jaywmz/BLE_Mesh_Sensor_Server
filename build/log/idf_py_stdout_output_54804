@@ -1,0 +1,598 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32c3
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Using component placed at C:\Espressif\frameworks\esp-idf-v5.4\examples\bluetooth\esp_ble_mesh\common_components\example_init for dependency "example_init", specified in C:\Espressif\frameworks\esp-idf-v5.4\examples\bluetooth\esp_ble_mesh\sensor_models\sensor_server\main\idf_component.yml
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Processing 26 dependencies:
+NOTICE: [1/26] chmorgan/esp-libhelix-mp3 (1.0.3)
+NOTICE: [2/26] espressif/cbor (0.6.0~1)
+NOTICE: [3/26] espressif/esp-dsp (1.5.2)
+NOTICE: [4/26] espressif/esp-modbus (1.0.17)
+NOTICE: [5/26] espressif/esp-serial-flasher (0.0.11)
+NOTICE: [6/26] espressif/esp-zboss-lib (1.6.3)
+NOTICE: [7/26] espressif/esp-zigbee-lib (1.6.3)
+NOTICE: [8/26] espressif/esp_diag_data_store (1.0.1)
+NOTICE: [9/26] espressif/esp_diagnostics (1.0.2)
+NOTICE: [10/26] espressif/esp_insights (1.0.1)
+NOTICE: [11/26] espressif/esp_modem (1.3.0)
+NOTICE: [12/26] espressif/esp_rainmaker (1.5.0)
+NOTICE: [13/26] espressif/esp_rcp_update (1.2.0)
+NOTICE: [14/26] espressif/esp_schedule (1.2.0)
+NOTICE: [15/26] espressif/esp_secure_cert_mgr (2.5.0)
+NOTICE: [16/26] espressif/jsmn (1.1.0)
+NOTICE: [17/26] espressif/json_generator (1.1.2)
+NOTICE: [18/26] espressif/json_parser (1.0.3)
+NOTICE: [19/26] espressif/libsodium (1.0.20~2)
+NOTICE: [20/26] espressif/mdns (1.8.0)
+NOTICE: [21/26] espressif/network_provisioning (1.0.2)
+NOTICE: [22/26] espressif/qrcode (0.1.0~2)
+NOTICE: [23/26] espressif/rmaker_common (1.4.6)
+NOTICE: [24/26] example_init (*) (C:\Espressif\frameworks\esp-idf-v5.4\examples\bluetooth\esp_ble_mesh\common_components\example_init)
+NOTICE: [25/26] joltwallet/littlefs (1.18.1)
+NOTICE: [26/26] idf (5.4.0)
+-- DEBUG: Use esp-modbus component folder: C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-modbus.
+NOTICE: Skipping optional dependency: espressif/esp-sr
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+-- Project sdkconfig file C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/sdkconfig
+Loading defaults file C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/sdkconfig.defaults...
+Loading defaults file C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/sdkconfig.defaults.esp32c3...
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/riscv/ld/rom.api.ld
+-- App "sensor_server" version: v5.4-dirty
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3/ld/esp32c3.rom.bt_funcs.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3_bt_funcs.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3/ld/esp32c3.rom.newlib.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- DEBUG: Use esp-modbus component folder: C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-modbus.
+-- Components: app_trace app_update arduino bootloader bootloader_support bt chmorgan__esp-libhelix-mp3 cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi espcoredump espressif__cbor espressif__esp-dsp espressif__esp-modbus espressif__esp-serial-flasher espressif__esp-zboss-lib espressif__esp-zigbee-lib espressif__esp_diag_data_store espressif__esp_diagnostics espressif__esp_insights espressif__esp_modem espressif__esp_rainmaker espressif__esp_rcp_update espressif__esp_schedule espressif__esp_secure_cert_mgr espressif__jsmn espressif__json_generator espressif__json_parser espressif__libsodium espressif__mdns espressif__network_provisioning espressif__qrcode espressif__rmaker_common esptool_py example_init fatfs freertos hal heap http_parser idf_test ieee802154 joltwallet__littlefs json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table protobuf-c protocomm pthread riscv rt sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: C:/Espressif/frameworks/esp-idf-v5.4/components/app_trace C:/Espressif/frameworks/esp-idf-v5.4/components/app_update C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino C:/Espressif/frameworks/esp-idf-v5.4/components/bootloader C:/Espressif/frameworks/esp-idf-v5.4/components/bootloader_support C:/Espressif/frameworks/esp-idf-v5.4/components/bt C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/chmorgan__esp-libhelix-mp3 C:/Espressif/frameworks/esp-idf-v5.4/components/cmock C:/Espressif/frameworks/esp-idf-v5.4/components/console C:/Espressif/frameworks/esp-idf-v5.4/components/cxx C:/Espressif/frameworks/esp-idf-v5.4/components/driver C:/Espressif/frameworks/esp-idf-v5.4/components/efuse C:/Espressif/frameworks/esp-idf-v5.4/components/esp-tls C:/Espressif/frameworks/esp-idf-v5.4/components/esp_adc C:/Espressif/frameworks/esp-idf-v5.4/components/esp_app_format C:/Espressif/frameworks/esp-idf-v5.4/components/esp_bootloader_format C:/Espressif/frameworks/esp-idf-v5.4/components/esp_coex C:/Espressif/frameworks/esp-idf-v5.4/components/esp_common C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_ana_cmpr C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_cam C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_dac C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_gpio C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_gptimer C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_i2c C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_i2s C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_isp C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_jpeg C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_ledc C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_mcpwm C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_parlio C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_pcnt C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_ppa C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_rmt C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_sdio C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_sdm C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_sdmmc C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_sdspi C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_spi C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_touch_sens C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_tsens C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_uart C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_usb_serial_jtag C:/Espressif/frameworks/esp-idf-v5.4/components/esp_eth C:/Espressif/frameworks/esp-idf-v5.4/components/esp_event C:/Espressif/frameworks/esp-idf-v5.4/components/esp_gdbstub C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hid C:/Espressif/frameworks/esp-idf-v5.4/components/esp_http_client C:/Espressif/frameworks/esp-idf-v5.4/components/esp_http_server C:/Espressif/frameworks/esp-idf-v5.4/components/esp_https_ota C:/Espressif/frameworks/esp-idf-v5.4/components/esp_https_server C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support C:/Espressif/frameworks/esp-idf-v5.4/components/esp_lcd C:/Espressif/frameworks/esp-idf-v5.4/components/esp_local_ctrl C:/Espressif/frameworks/esp-idf-v5.4/components/esp_mm C:/Espressif/frameworks/esp-idf-v5.4/components/esp_netif C:/Espressif/frameworks/esp-idf-v5.4/components/esp_netif_stack C:/Espressif/frameworks/esp-idf-v5.4/components/esp_partition C:/Espressif/frameworks/esp-idf-v5.4/components/esp_phy C:/Espressif/frameworks/esp-idf-v5.4/components/esp_pm C:/Espressif/frameworks/esp-idf-v5.4/components/esp_psram C:/Espressif/frameworks/esp-idf-v5.4/components/esp_ringbuf C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom C:/Espressif/frameworks/esp-idf-v5.4/components/esp_security C:/Espressif/frameworks/esp-idf-v5.4/components/esp_system C:/Espressif/frameworks/esp-idf-v5.4/components/esp_timer C:/Espressif/frameworks/esp-idf-v5.4/components/esp_vfs_console C:/Espressif/frameworks/esp-idf-v5.4/components/esp_wifi C:/Espressif/frameworks/esp-idf-v5.4/components/espcoredump C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__cbor C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-modbus C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-serial-flasher C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-zboss-lib C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-zigbee-lib C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_diag_data_store C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_diagnostics C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_insights C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_modem C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_rainmaker C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_rcp_update C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_schedule C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_secure_cert_mgr C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__jsmn C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__json_generator C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__json_parser C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__libsodium C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__mdns C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__network_provisioning C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__qrcode C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__rmaker_common C:/Espressif/frameworks/esp-idf-v5.4/components/esptool_py C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/common_components/example_init C:/Espressif/frameworks/esp-idf-v5.4/components/fatfs C:/Espressif/frameworks/esp-idf-v5.4/components/freertos C:/Espressif/frameworks/esp-idf-v5.4/components/hal C:/Espressif/frameworks/esp-idf-v5.4/components/heap C:/Espressif/frameworks/esp-idf-v5.4/components/http_parser C:/Espressif/frameworks/esp-idf-v5.4/components/idf_test C:/Espressif/frameworks/esp-idf-v5.4/components/ieee802154 C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/joltwallet__littlefs C:/Espressif/frameworks/esp-idf-v5.4/components/json C:/Espressif/frameworks/esp-idf-v5.4/components/log C:/Espressif/frameworks/esp-idf-v5.4/components/lwip C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main C:/Espressif/frameworks/esp-idf-v5.4/components/mbedtls C:/Espressif/frameworks/esp-idf-v5.4/components/mqtt C:/Espressif/frameworks/esp-idf-v5.4/components/newlib C:/Espressif/frameworks/esp-idf-v5.4/components/nvs_flash C:/Espressif/frameworks/esp-idf-v5.4/components/nvs_sec_provider C:/Espressif/frameworks/esp-idf-v5.4/components/openthread C:/Espressif/frameworks/esp-idf-v5.4/components/partition_table C:/Espressif/frameworks/esp-idf-v5.4/components/protobuf-c C:/Espressif/frameworks/esp-idf-v5.4/components/protocomm C:/Espressif/frameworks/esp-idf-v5.4/components/pthread C:/Espressif/frameworks/esp-idf-v5.4/components/riscv C:/Espressif/frameworks/esp-idf-v5.4/components/rt C:/Espressif/frameworks/esp-idf-v5.4/components/sdmmc C:/Espressif/frameworks/esp-idf-v5.4/components/soc C:/Espressif/frameworks/esp-idf-v5.4/components/spi_flash C:/Espressif/frameworks/esp-idf-v5.4/components/spiffs C:/Espressif/frameworks/esp-idf-v5.4/components/tcp_transport C:/Espressif/frameworks/esp-idf-v5.4/components/ulp C:/Espressif/frameworks/esp-idf-v5.4/components/unity C:/Espressif/frameworks/esp-idf-v5.4/components/usb C:/Espressif/frameworks/esp-idf-v5.4/components/vfs C:/Espressif/frameworks/esp-idf-v5.4/components/wear_levelling C:/Espressif/frameworks/esp-idf-v5.4/components/wifi_provisioning C:/Espressif/frameworks/esp-idf-v5.4/components/wpa_supplicant
+-- Configuring done (19.3s)
+-- Generating done (2.9s)
+-- Build files have been written to: C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/build
+[1/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/cbuf.cpp.obj
+[2/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-dac.c.obj
+[3/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-touch.c.obj
+[4/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-tinyusb.c.obj
+[5/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-touch-ng.c.obj
+[6/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/ColorFormat.c.obj
+[7/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/base64.cpp.obj
+[8/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-i2c.c.obj
+[9/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-periman.c.obj
+[10/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-matrix.c.obj
+[11/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-rgb-led.c.obj
+[12/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-bt.c.obj
+[13/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-psram.c.obj
+[14/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/freertos_stats.cpp.obj
+[15/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-i2c-ng.c.obj
+[16/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/libb64/cdecode.c.obj
+[17/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-cpu.c.obj
+[18/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-sigmadelta.c.obj
+[19/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-timer.c.obj
+[20/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/libb64/cencode.c.obj
+[21/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-ledc.c.obj
+[22/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-adc.c.obj
+[23/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-i2c-slave.c.obj
+[24/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-spi.c.obj
+[25/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-gpio.c.obj
+[26/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-rmt.c.obj
+[27/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-uart.c.obj
+[28/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-time.c.obj
+[29/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/esp32-hal-misc.c.obj
+[30/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/MacAddress.cpp.obj
+[31/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/USB.cpp.obj
+[32/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/USBMSC.cpp.obj
+[33/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/USBCDC.cpp.obj
+[34/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/FirmwareMSC.cpp.obj
+[35/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/stdlib_noniso.c.obj
+[36/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/WMath.cpp.obj
+[37/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/IPAddress.cpp.obj
+[38/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/wiring_shift.c.obj
+[39/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/wiring_pulse.c.obj
+[40/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/HWCDC.cpp.obj
+[41/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/FunctionalInterrupt.cpp.obj
+[42/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEBeacon.cpp.obj
+[43/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/HardwareSerial.cpp.obj
+[44/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/firmware_msc_fat.c.obj
+[45/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/HEXBuilder.cpp.obj
+[46/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/Print.cpp.obj
+[47/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/main.cpp.obj
+[48/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/Stream.cpp.obj
+[49/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/StreamString.cpp.obj
+[50/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/Tone.cpp.obj
+[51/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/SHA1Builder.cpp.obj
+[52/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/MD5Builder.cpp.obj
+[53/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEExceptions.cpp.obj
+[54/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/WString.cpp.obj
+[55/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/chip-debug-report.cpp.obj
+[56/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLESecurity.cpp.obj
+[57/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEAddress.cpp.obj
+[58/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/AsyncUDP/src/AsyncUDP.cpp.obj
+[59/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLE2902.cpp.obj
+[60/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLE2904.cpp.obj
+[61/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLE2901.cpp.obj
+[62/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEAdvertising.cpp.obj
+[63/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/cores/esp32/Esp.cpp.obj
+[64/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEValue.cpp.obj
+[65/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEAdvertisedDevice.cpp.obj
+[66/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLECharacteristicMap.cpp.obj
+[67/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/ArduinoOTA/src/ArduinoOTA.cpp.obj
+[68/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLECharacteristic.cpp.obj
+[69/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEEddystoneTLM.cpp.obj
+[70/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEEddystoneURL.cpp.obj
+[71/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEDescriptor.cpp.obj
+[72/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEDescriptorMap.cpp.obj
+[73/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEDevice.cpp.obj
+[74/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEClient.cpp.obj
+[75/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/ESP_SR/src/ESP_SR.cpp.obj
+[76/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/ESP_SR/src/esp32-hal-sr.c.obj
+[77/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEHIDDevice.cpp.obj
+[78/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEScan.cpp.obj
+[79/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEServer.cpp.obj
+[80/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLERemoteCharacteristic.cpp.obj
+[81/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLERemoteDescriptor.cpp.obj
+[82/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLERemoteService.cpp.obj
+[83/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEUUID.cpp.obj
+[84/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEService.cpp.obj
+[85/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Insights/src/Insights.cpp.obj
+[86/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterOnOffLight.cpp.obj
+[87/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/ESP_NOW/src/ESP32_NOW_Serial.cpp.obj
+[88/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterGenericSwitch.cpp.obj
+[89/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/ESP_NOW/src/ESP32_NOW.cpp.obj
+[90/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterDimmableLight.cpp.obj
+[91/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEUtils.cpp.obj
+[92/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/BLEServiceMap.cpp.obj
+[93/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterColorTemperatureLight.cpp.obj
+[94/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterColorLight.cpp.obj
+[95/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterEnhancedColorLight.cpp.obj
+[96/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BluetoothSerial/src/BluetoothSerial.cpp.obj
+[97/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterFan.cpp.obj
+[98/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterTemperatureSensor.cpp.obj
+[99/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterHumiditySensor.cpp.obj
+[100/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BluetoothSerial/src/BTAdvertisedDeviceSet.cpp.obj
+[101/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterContactSensor.cpp.obj
+[102/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterPressureSensor.cpp.obj
+[103/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterOccupancySensor.cpp.obj
+[104/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BluetoothSerial/src/BTAddress.cpp.obj
+[105/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterThermostat.cpp.obj
+[106/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/MatterEndpoints/MatterOnOffPlugin.cpp.obj
+[107/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Matter/src/Matter.cpp.obj
+[108/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/ESP_I2S/src/ESP_I2S.cpp.obj
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp: In member function 'bool I2SClass::initSTD(uint32_t, i2s_data_bit_width_t, i2s_slot_mode_t, int8_t)':
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp:26:3: warning: missing initializer for member 'i2s_chan_config_t::allow_pd' [-Wmissing-field-initializers]
+   26 |   }
+      |   ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp:344:32: note: in expansion of macro 'I2S_DEFAULT_CFG'
+  344 |   i2s_chan_config_t chan_cfg = I2S_DEFAULT_CFG();
+      |                                ^~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp: In member function 'bool I2SClass::initTDM(uint32_t, i2s_data_bit_width_t, i2s_slot_mode_t, int8_t)':
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp:26:3: warning: missing initializer for member 'i2s_chan_config_t::allow_pd' [-Wmissing-field-initializers]
+   26 |   }
+      |   ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp:453:32: note: in expansion of macro 'I2S_DEFAULT_CFG'
+  453 |   i2s_chan_config_t chan_cfg = I2S_DEFAULT_CFG();
+      |                                ^~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp:63:3: warning: missing initializer for member 'i2s_tdm_clk_config_t::ext_clk_freq_hz' [-Wmissing-field-initializers]
+   63 |   }
+      |   ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp:462:37: note: in expansion of macro 'I2S_TDM_CHAN_CFG'
+  462 |   i2s_tdm_config_t i2s_tdm_config = I2S_TDM_CHAN_CFG(rate, bits_cfg, ch, (i2s_tdm_slot_mask_t)slot_mask);
+      |                                     ^~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp: In member function 'bool I2SClass::initPDMtx(uint32_t, i2s_data_bit_width_t, i2s_slot_mode_t)':
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp:26:3: warning: missing initializer for member 'i2s_chan_config_t::allow_pd' [-Wmissing-field-initializers]
+   26 |   }
+      |   ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src/ESP_I2S.cpp:544:32: note: in expansion of macro 'I2S_DEFAULT_CFG'
+  544 |   i2s_chan_config_t chan_cfg = I2S_DEFAULT_CFG();
+      |                                ^~~~~~~~~~~~~~~
+[109/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/GeneralUtils.cpp.obj
+[110/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BLE/src/FreeRTOS.cpp.obj
+[111/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/BluetoothSerial/src/BTScanResultsSet.cpp.obj
+[112/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/EEPROM/src/EEPROM.cpp.obj
+[113/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/OpenThread/src/OThreadCLI_Util.cpp.obj
+[114/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/OpenThread/src/OThreadCLI.cpp.obj
+[115/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/PPP/src/PPP.cpp.obj
+[116/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/PPP/src/ppp.c.obj
+[117/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/ESPmDNS/src/ESPmDNS.cpp.obj
+[118/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/RainMaker/src/AppInsights.cpp.obj
+[119/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/DNSServer/src/DNSServer.cpp.obj
+[120/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/RainMaker/src/RMakerDevice.cpp.obj
+[121/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/RainMaker/src/RMakerParam.cpp.obj
+[122/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/RainMaker/src/RMakerNode.cpp.obj
+[123/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/RainMaker/src/RMakerType.cpp.obj
+[124/223] Building C object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/SD/src/sd_diskio_crc.c.obj
+[125/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/FS/src/FS.cpp.obj
+[126/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Ethernet/src/ETH.cpp.obj
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Ethernet/src/ETH.cpp: In member function 'void ETHClass::end()':
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Ethernet/src/ETH.cpp:889:22: warning: 'void NetworkEvents::removeEvent(NetworkEventFuncCb, arduino_event_id_t)' is deprecated: removing functional callbacks via pointer is deprecated, use removeEvent(network_event_handle_t) instead [-Wdeprecated-declarations]
+  889 |   Network.removeEvent(onEthConnected, ARDUINO_EVENT_ETH_CONNECTED);
+      |   ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Network/src/Network.h:9,
+                 from C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Ethernet/src/ETH.h:71,
+                 from C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Ethernet/src/ETH.cpp:24:
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Network/src/NetworkEvents.h:204:8: note: declared here
+  204 |   void removeEvent(NetworkEventFuncCb cbEvent, arduino_event_id_t event = ARDUINO_EVENT_MAX)
+      |        ^~~~~~~~~~~
+[127/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/FS/src/vfs_api.cpp.obj
+[128/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/USBMIDI.cpp.obj
+[129/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/USBHID.cpp.obj
+[130/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Network/src/NetworkEvents.cpp.obj
+[131/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Network/src/NetworkInterface.cpp.obj
+[132/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/NetBIOS/src/NetBIOS.cpp.obj
+[133/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Preferences/src/Preferences.cpp.obj
+[134/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Network/src/NetworkUdp.cpp.obj
+[135/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/RainMaker/src/RMakerQR.cpp.obj
+[136/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/LittleFS/src/LittleFS.cpp.obj
+[137/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/RainMaker/src/RMakerUtils.cpp.obj
+[138/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Network/src/NetworkManager.cpp.obj
+[139/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/RainMaker/src/RMaker.cpp.obj
+[140/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/FFat/src/FFat.cpp.obj
+[141/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Ticker/src/Ticker.cpp.obj
+[142/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/USBHIDMouse.cpp.obj
+[143/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/SD_MMC/src/SD_MMC.cpp.obj
+In file included from C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/SD_MMC/src/SD_MMC.cpp:20:
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/SD_MMC/src/SD_MMC.h:21:2: warning: #warning The SDMMC library requires a device with an SDIO Host [-Wcpp]
+   21 | #warning The SDMMC library requires a device with an SDIO Host
+      |  ^~~~~~~
+[144/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/USBHIDKeyboard.cpp.obj
+[145/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/SD/src/sd_diskio.cpp.obj
+[146/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Network/src/NetworkClient.cpp.obj
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Network/src/NetworkClient.cpp:26:9: warning: "IN6_IS_ADDR_V4MAPPED" redefined
+   26 | #define IN6_IS_ADDR_V4MAPPED(a) ((((__const uint32_t *)(a))[0] == 0) && (((__const uint32_t *)(a))[1] == 0) && (((__const uint32_t *)(a))[2] == htonl(0xffff)))
+      |         ^~~~~~~~~~~~~~~~~~~~
+In file included from C:/Espressif/frameworks/esp-idf-v5.4/components/lwip/lwip/src/include/lwip/sockets.h:53,
+                 from C:/Espressif/frameworks/esp-idf-v5.4/components/lwip/include/lwip/sockets.h:8,
+                 from C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Network/src/NetworkClient.cpp:22:
+C:/Espressif/frameworks/esp-idf-v5.4/components/lwip/lwip/src/include/lwip/inet.h:133:9: note: this is the location of the previous definition
+  133 | #define IN6_IS_ADDR_V4MAPPED(a)     ip6_addr_isipv4mappedipv6((ip6_addr_t*)(a))
+      |         ^~~~~~~~~~~~~~~~~~~~
+[147/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Update/src/HttpsOTAUpdate.cpp.obj
+[148/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Network/src/NetworkServer.cpp.obj
+[149/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/USBHIDGamepad.cpp.obj
+[150/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/USBHIDConsumerControl.cpp.obj
+[151/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/HTTPClient/src/HTTPClient.cpp.obj
+[152/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/HTTPUpdate/src/HTTPUpdate.cpp.obj
+[153/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/USBHIDSystemControl.cpp.obj
+[154/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/USBHIDVendor.cpp.obj
+[155/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WebServer/src/detail/mimetable.cpp.obj
+[156/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/USBVendor.cpp.obj
+[157/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/SD/src/SD.cpp.obj
+[158/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/SimpleBLE/src/SimpleBLE.cpp.obj
+[159/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/SPI/src/SPI.cpp.obj
+[160/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Update/src/Updater.cpp.obj
+[161/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WebServer/src/middleware/MiddlewareChain.cpp.obj
+[162/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/SPIFFS/src/SPIFFS.cpp.obj
+[163/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/keyboardLayout/KeyboardLayout_de_DE.cpp.obj
+[164/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/keyboardLayout/KeyboardLayout_pt_PT.cpp.obj
+[165/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/keyboardLayout/KeyboardLayout_fr_FR.cpp.obj
+[166/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/keyboardLayout/KeyboardLayout_hu_HU.cpp.obj
+[167/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/keyboardLayout/KeyboardLayout_it_IT.cpp.obj
+[168/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/keyboardLayout/KeyboardLayout_en_US.cpp.obj
+[169/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/keyboardLayout/KeyboardLayout_da_DK.cpp.obj
+[170/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/keyboardLayout/KeyboardLayout_pt_BR.cpp.obj
+[171/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/keyboardLayout/KeyboardLayout_sv_SE.cpp.obj
+[172/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/USB/src/keyboardLayout/KeyboardLayout_es_ES.cpp.obj
+[173/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeLight.cpp.obj
+[174/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeColorDimmerSwitch.cpp.obj
+[175/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeTempSensor.cpp.obj
+[176/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ZigbeeCore.cpp.obj
+[177/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ZigbeeEP.cpp.obj
+[178/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeDimmableLight.cpp.obj
+[179/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeColorDimmableLight.cpp.obj
+[180/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeSwitch.cpp.obj
+[181/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeThermostat.cpp.obj
+[182/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeePressureSensor.cpp.obj
+[183/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeCarbonDioxideSensor.cpp.obj
+[184/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeContactSwitch.cpp.obj
+[185/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeFlowSensor.cpp.obj
+[186/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeDoorWindowHandle.cpp.obj
+[187/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeWindowCovering.cpp.obj
+[188/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeOccupancySensor.cpp.obj
+[189/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeVibrationSensor.cpp.obj
+[190/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeRangeExtender.cpp.obj
+[191/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeAnalog.cpp.obj
+[192/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ep/ZigbeeGateway.cpp.obj
+[193/223] Performing build step for 'bootloader'
+[1/1] C:\Windows\system32\cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.4\examples\bluetooth\esp_ble_mesh\sensor_models\sensor_server\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.4/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5150 bytes. 0x2eb0 bytes (36%) free.
+[194/223] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/board.c.obj
+[195/223] No install step for 'bootloader'
+[196/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WebServer/src/Parsing.cpp.obj
+[197/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WebServer/src/middleware/CorsMiddleware.cpp.obj
+[198/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WebServer/src/middleware/AuthenticationMiddleware.cpp.obj
+[199/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/NetworkClientSecure/src/ssl_client.cpp.obj
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/NetworkClientSecure/src/ssl_client.cpp:23:2: warning: #warning "Please call `idf.py menuconfig` then go to Component config -> mbedTLS -> TLS Key Exchange Methods -> Enable pre-shared-key ciphersuites and then check `Enable PSK based ciphersuite modes`. Save and Quit." [-Wcpp]
+   23 | #warning \
+      |  ^~~~~~~
+[200/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WebServer/src/WebServer.cpp.obj
+[201/223] Completed 'bootloader'
+[202/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WebServer/src/middleware/LoggingMiddleware.cpp.obj
+[203/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WiFi/src/WiFi.cpp.obj
+[204/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WiFi/src/WiFiAP.cpp.obj
+[205/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WiFi/src/WiFiScan.cpp.obj
+[206/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WiFi/src/WiFiMulti.cpp.obj
+[207/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WiFi/src/WiFiGeneric.cpp.obj
+[208/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/NetworkClientSecure/src/NetworkClientSecure.cpp.obj
+[209/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WiFi/src/WiFiSTA.cpp.obj
+[210/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Wire/src/Wire.cpp.obj
+[211/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/Zigbee/src/ZigbeeHandlers.cpp.obj
+[212/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WiFi/src/STA.cpp.obj
+[213/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WiFi/src/AP.cpp.obj
+[214/223] Building CXX object esp-idf/arduino/CMakeFiles/__idf_arduino.dir/libraries/WiFiProv/src/WiFiProv.cpp.obj
+[215/223] Linking C static library esp-idf\arduino\libarduino.a
+[216/223] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj 
+ccache C:\Espressif\tools\riscv32-esp-elf\esp-14.2.0_20241119\riscv32-esp-elf\bin\riscv32-esp-elf-g++.exe -DESP_MDNS_VERSION_NUMBER=\"1.8.0\" -DESP_PLATFORM -DIDF_VER=\"v5.4-dirty\" -DMBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\" -DMD5_ENABLED=1 -DSERIAL_FLASHER_BOOT_HOLD_TIME_MS=50 -DSERIAL_FLASHER_RESET_HOLD_TIME_MS=100 -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -DUNITY_INCLUDE_CONFIG_H -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/build/config -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main -IC:/Espressif/frameworks/esp-idf-v5.4/components/newlib/platform_include -IC:/Espressif/frameworks/esp-idf-v5.4/components/freertos/config/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/freertos/config/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.4/components/freertos/config/riscv/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/riscv/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos -IC:/Espressif/frameworks/esp-idf-v5.4/components/freertos/esp_additions/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/include/soc -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/include/soc/esp32c3 -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/dma/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/ldo/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/debug_probe/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/port/esp32c3/. -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support/port/esp32c3/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/heap/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/heap/tlsf -IC:/Espressif/frameworks/esp-idf-v5.4/components/log/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/soc/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/soc/esp32c3 -IC:/Espressif/frameworks/esp-idf-v5.4/components/soc/esp32c3/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/soc/esp32c3/register -IC:/Espressif/frameworks/esp-idf-v5.4/components/hal/platform_port/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/hal/esp32c3/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/hal/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3/include/esp32c3 -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32c3 -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_common/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/port/soc -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/port/include/riscv -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_system/port/include/private -IC:/Espressif/frameworks/esp-idf-v5.4/components/riscv/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/lwip/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/lwip/include/apps -IC:/Espressif/frameworks/esp-idf-v5.4/components/lwip/include/apps/sntp -IC:/Espressif/frameworks/esp-idf-v5.4/components/lwip/lwip/src/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/lwip/port/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/lwip/port/freertos/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/lwip/port/esp32xx/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/lwip/port/esp32xx/include/arch -IC:/Espressif/frameworks/esp-idf-v5.4/components/lwip/port/esp32xx/include/sys -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/common_components/example_init -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/include/esp32c3/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/common/osi/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/common/api/include/api -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/common/btc/profile/esp/blufi/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/common/btc/profile/esp/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/common/hci_log/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/host/bluedroid/api/include/api -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/common/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/common/tinycrypt/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/core -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/core/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/core/storage -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/btc/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/models/common/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/models/client/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/models/server/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/core/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/models/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/lib/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/v1.1/api/core/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/v1.1/api/models/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/v1.1/btc/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bt/porting/ext/tinycrypt/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_timer/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_wifi/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_wifi/include/local -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_wifi/wifi_apps/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_wifi/wifi_apps/nan_app/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_event/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_phy/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_phy/esp32c3/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_netif/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_gpio/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_pm/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/mbedtls/port/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/mbedtls/mbedtls/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/mbedtls/mbedtls/library -IC:/Espressif/frameworks/esp-idf-v5.4/components/mbedtls/esp_crt_bundle/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/mbedtls/mbedtls/3rdparty/everest/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/mbedtls/mbedtls/3rdparty/p256-m -IC:/Espressif/frameworks/esp-idf-v5.4/components/mbedtls/mbedtls/3rdparty/p256-m/p256-m -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_app_format/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_bootloader_format/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/app_update/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bootloader_support/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/bootloader_support/bootloader_flash/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_partition/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/efuse/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/efuse/esp32c3/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_mm/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/spi_flash/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_security/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/pthread/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_gptimer/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_ringbuf/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_uart/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/vfs/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/app_trace/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/nvs_flash/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_pcnt/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_spi/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_mcpwm/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_ana_cmpr/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_i2s/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_sdmmc/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_sdspi/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_sdio/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_dac/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_rmt/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_tsens/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_sdm/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_i2c/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_ledc/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_parlio/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_usb_serial_jtag/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/driver/deprecated -IC:/Espressif/frameworks/esp-idf-v5.4/components/driver/i2c/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/driver/touch_sensor/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/driver/twai/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_vfs_console/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/wpa_supplicant/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/wpa_supplicant/port/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/wpa_supplicant/esp_supplicant/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_coex/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/unity/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/unity/unity/src -IC:/Espressif/frameworks/esp-idf-v5.4/components/cmock/CMock/src -IC:/Espressif/frameworks/esp-idf-v5.4/components/console -IC:/Espressif/frameworks/esp-idf-v5.4/components/http_parser -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp-tls -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp-tls/esp-tls-crypto -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_adc/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_adc/interface -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_adc/esp32c3/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_adc/deprecated/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_isp/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_cam/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_cam/interface -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_jpeg/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_ppa/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_eth/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_gdbstub/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_hid/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/tcp_transport/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_http_client/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_http_server/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_https_ota/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_https_server/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_psram/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_lcd/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_lcd/interface -IC:/Espressif/frameworks/esp-idf-v5.4/components/protobuf-c/protobuf-c -IC:/Espressif/frameworks/esp-idf-v5.4/components/protocomm/include/common -IC:/Espressif/frameworks/esp-idf-v5.4/components/protocomm/include/security -IC:/Espressif/frameworks/esp-idf-v5.4/components/protocomm/include/transports -IC:/Espressif/frameworks/esp-idf-v5.4/components/protocomm/include/crypto/srp6a -IC:/Espressif/frameworks/esp-idf-v5.4/components/protocomm/proto-c -IC:/Espressif/frameworks/esp-idf-v5.4/components/esp_local_ctrl/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/espcoredump/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/espcoredump/include/port/riscv -IC:/Espressif/frameworks/esp-idf-v5.4/components/wear_levelling/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/fatfs/diskio -IC:/Espressif/frameworks/esp-idf-v5.4/components/fatfs/src -IC:/Espressif/frameworks/esp-idf-v5.4/components/fatfs/vfs -IC:/Espressif/frameworks/esp-idf-v5.4/components/idf_test/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/idf_test/include/esp32c3 -IC:/Espressif/frameworks/esp-idf-v5.4/components/ieee802154/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/json/cJSON -IC:/Espressif/frameworks/esp-idf-v5.4/components/mqtt/esp-mqtt/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/nvs_sec_provider/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/rt/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/spiffs/include -IC:/Espressif/frameworks/esp-idf-v5.4/components/wifi_provisioning/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/chmorgan__esp-libhelix-mp3/libhelix-mp3/pub -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-modbus/freemodbus/common/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__libsodium/libsodium/src/libsodium/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__libsodium/port_include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__mdns/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__cbor/port/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/dotprod/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/support/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/support/mem/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/windows/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/windows/hann/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/windows/blackman/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/windows/blackman_harris/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/windows/blackman_nuttall/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/windows/nuttall/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/windows/flat_top/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/iir/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/fir/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/math/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/math/add/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/math/sub/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/math/mul/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/math/addc/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/math/mulc/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/math/sqrt/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/matrix/mul/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/matrix/add/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/matrix/addc/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/matrix/mulc/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/matrix/sub/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/matrix/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/fft/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/dct/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/conv/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/common/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/matrix/mul/test/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/kalman/ekf/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-dsp/modules/kalman/ekf_imu13states/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_diag_data_store/src/rtc_store -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_diag_data_store/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__rmaker_common/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_diagnostics/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_insights/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_modem/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__jsmn/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__json_parser/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__json_generator/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_schedule/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__network_provisioning/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-serial-flasher/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp-serial-flasher/port -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_rcp_update/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_secure_cert_mgr/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__esp_rainmaker/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/espressif__qrcode/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/managed_components/joltwallet__littlefs/include -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/variants/esp32c3 -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/cores/esp32 -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ArduinoOTA/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/AsyncUDP/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/BLE/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/BluetoothSerial/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/DNSServer/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/EEPROM/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_I2S/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_NOW/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESP_SR/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/ESPmDNS/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Ethernet/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/FFat/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/FS/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/HTTPClient/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/HTTPUpdate/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Insights/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/LittleFS/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Matter/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/NetBIOS/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Network/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/OpenThread/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/IRremote/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/PPP/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Preferences/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/RainMaker/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/SD_MMC/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/SD/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/SimpleBLE/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/SPIFFS/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/SPI/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Ticker/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Update/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/USB/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/WebServer/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/NetworkClientSecure/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/WiFi/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/WiFiProv/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Wire/src -IC:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/components/arduino/libraries/Zigbee/src -march=rv32imc_zicsr_zifencei  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -nostartfiles -Og -fno-shrink-wrap -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server=. -fmacro-prefix-map=C:/Espressif/frameworks/esp-idf-v5.4=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu++2b -fno-exceptions -fno-rtti -fuse-cxa-atexit -DARDUINO=10812 -DARDUINO_ESP32C3_DEV -DARDUINO_ARCH_ESP32 -DARDUINO_BOARD=\"ESP32C3_DEV\" -DARDUINO_VARIANT=\"esp32c3\" -DESP32=ESP32 -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\main.cpp.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj -c C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:69:1: warning: missing initializer for member 'esp_ble_mesh_cfg_srv_t::model' [-Wmissing-field-initializers]
+   69 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:69:1: warning: missing initializer for member 'esp_ble_mesh_cfg_srv_t::heartbeat_pub' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:69:1: warning: missing initializer for member 'esp_ble_mesh_cfg_srv_t::heartbeat_sub' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::setting_count' [-Wmissing-field-initializers]
+  121 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::settings' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::cadence' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::series_column' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::setting_count' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::settings' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::cadence' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:121:1: warning: missing initializer for member 'esp_ble_mesh_sensor_state_t::series_column' [-Wmissing-field-initializers]
+In file included from C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:18:
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::model' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::publish_addr' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::app_idx' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::cred' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::send_rel' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::send_szmic' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::ttl' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::retransmit' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period_div' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::fast_period' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::count' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period_start' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::timer' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:124:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  124 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:132:1: warning: missing initializer for member 'esp_ble_mesh_sensor_srv_t::model' [-Wmissing-field-initializers]
+  132 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:132:1: warning: missing initializer for member 'esp_ble_mesh_server_rsp_ctrl_t::status_auto_rsp' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::model' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::publish_addr' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::app_idx' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::cred' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::send_rel' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::send_szmic' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::ttl' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::retransmit' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period_div' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::fast_period' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::count' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::period_start' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/components/bt/esp_ble_mesh/api/esp_ble_mesh_defs.h:504:5: warning: missing initializer for member 'esp_ble_mesh_model_pub_t::timer' [-Wmissing-field-initializers]
+  504 |     }
+      |     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:134:1: note: in expansion of macro 'ESP_BLE_MESH_MODEL_PUB_DEFINE'
+  134 | ESP_BLE_MESH_MODEL_PUB_DEFINE(sensor_setup_pub, 20, ROLE_NODE);
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:142:1: warning: missing initializer for member 'esp_ble_mesh_sensor_setup_srv_t::model' [-Wmissing-field-initializers]
+  142 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:142:1: warning: missing initializer for member 'esp_ble_mesh_server_rsp_ctrl_t::status_auto_rsp' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element_idx' [-Wmissing-field-initializers]
+  148 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::model_idx' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::flags' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element_idx' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::model_idx' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::flags' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element_idx' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::model_idx' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::flags' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::element' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:148:1: warning: missing initializer for member 'esp_ble_mesh_model::cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:152:1: warning: missing initializer for member 'esp_ble_mesh_elem_t::element_addr' [-Wmissing-field-initializers]
+  152 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:158:1: warning: missing initializer for member 'esp_ble_mesh_comp_t::pid' [-Wmissing-field-initializers]
+  158 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:158:1: warning: missing initializer for member 'esp_ble_mesh_comp_t::vid' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::uri' [-Wmissing-field-initializers]
+  162 | };
+      | ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::oob_info' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::oob_pub_key' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::oob_pub_key_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::oob_type' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::static_val' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::static_val_len' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::output_size' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::output_actions' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::input_size' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::input_actions' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::output_num_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::output_str_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::input_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::link_open_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::link_close_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::complete_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:162:1: warning: missing initializer for member 'esp_ble_mesh_prov_t::reset_cb' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp: In function 'void example_ble_mesh_send_sensor_descriptor_status(esp_ble_mesh_sensor_server_cb_param_t*)':
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:254:53: warning: missing initializer for member 'example_sensor_descriptor::pos_tolerance' [-Wmissing-field-initializers]
+  254 |     struct example_sensor_descriptor descriptor = {0};
+      |                                                     ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:254:53: warning: missing initializer for member 'example_sensor_descriptor::neg_tolerance' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:254:53: warning: missing initializer for member 'example_sensor_descriptor::sample_func' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:254:53: warning: missing initializer for member 'example_sensor_descriptor::measure_period' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:254:53: warning: missing initializer for member 'example_sensor_descriptor::update_interval' [-Wmissing-field-initializers]
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp: In function 'void example_ble_mesh_send_sensor_setting_status(esp_ble_mesh_sensor_server_cb_param_t*)':
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:355:47: warning: missing initializer for member 'example_sensor_setting::sensor_setting_prop_id' [-Wmissing-field-initializers]
+  355 |     struct example_sensor_setting setting = {0};
+      |                                               ^
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp: In function 'void app_main()':
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:657:5: error: 'setupIRTest' was not declared in this scope
+  657 |     setupIRTest();
+      |     ^~~~~~~~~~~
+C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/main/main.cpp:661:9: error: 'loopIRTest' was not declared in this scope
+  661 |         loopIRTest();
+      |         ^~~~~~~~~~
+ninja: build stopped: subcommand failed.

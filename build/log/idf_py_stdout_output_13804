@@ -1,0 +1,111 @@
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x1 (POWERON),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1574
+load:0x403cc710,len:0xc30
+load:0x403ce710,len:0x2f58
+entry 0x403cc71a
+[0;32mI (30) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time Mar  7 2025 18:48:40[0m
+[0;32mI (30) boot: chip revision: v0.3[0m
+[0;32mI (31) boot: efuse block revision: v1.1[0m
+[0;32mI (34) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (38) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3c0d0020 size=2e6a8h (190120) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0003e6d0 vaddr=3fc95e00 size=01948h (  6472) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=c2268h (795240) map[0m
+[0;32mI (250) esp_image: segment 3: paddr=00102290 vaddr=3fc97748 size=019e0h (  6624) load[0m
+[0;32mI (252) esp_image: segment 4: paddr=00103c78 vaddr=40380000 size=15dbch ( 89532) load[0m
+[0;32mI (270) esp_image: segment 5: paddr=00119a3c vaddr=50000200 size=0001ch (    28) load[0m
+[0;32mI (277) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (278) boot: Disabling RNG early entropy source...[0m
+[0;32mI (288) cpu_start: Unicore app[0m
+[0;32mI (296) cpu_start: Pro cpu start user code[0m
+[0;32mI (296) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (297) app_init: Project name:     sensor_server[0m
+[0;32mI (301) app_init: App version:      v5.4-dirty[0m
+[0;32mI (305) app_init: Compile time:     Mar  7 2025 18:48:36[0m
+[0;32mI (310) app_init: ELF file SHA256:  eb9cc2534...[0m
+[0;32mI (315) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (319) efuse_init: Min chip rev:     v0.3[0m
+[0;32mI (323) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (326) efuse_init: Chip rev:         v0.3[0m
+[0;32mI (330) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (337) heap_init: At 3FCA1620 len 0001E9E0 (122 KiB): RAM[0m
+[0;32mI (342) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (348) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (354) heap_init: At 5000021C len 00001DCC (7 KiB): RTCRAM[0m
+[0;32mI (360) spi_flash: detected chip: generic[0m
+[0;32mI (363) spi_flash: flash io: dio[0m
+[0;33mW (366) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (378) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (409) gpio: GPIO[9]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (410) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (413) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (419) coexist: coex firmware version: 49a8cdc[0m
+[0;32mI (424) coexist: coexist rom version 9387209[0m
+[0;32mI (428) main_task: Started on CPU0[0m
+[0;32mI (431) main_task: Calling app_main()[0m
+[0;32mI (434) EXAMPLE: Initializing...[0m
+[0;32mI (440) gpio: GPIO[8]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (445) gpio: GPIO[8]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (453) gpio: GPIO[8]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (461) BLE_INIT: BT controller compile version [d752dea][0m
+[0;32mI (467) BLE_INIT: Bluetooth MAC: 84:f7:03:a9:9b:92[0m
+[0;32mI (472) phy_init: phy_version 1180,01f2a49,Jun  4 2024,16:34:25[0m
+[0;32mI (586) EXAMPLE: ESP_BLE_MESH_PROV_REGISTER_COMP_EVT, err_code 0[0m
+[0;32mI (592) EXAMPLE: ESP_BLE_MESH_NODE_PIRremote test code started[0m
+**************************************************************************************************
+Thank you for using the IRremote library!
+It seems, that you are using an old version 2.0 code / example.
+This version is no longer supported!
+
+Upgrade instructions can be found here:
+ https://github.com/Arduino-IRremote/Arduino-IRremote?tab=readme-ov-file#converting-your-2x-program-to-the-4x-version
+
+Please use one of the new code examples from the libI (635) EXAMPLE: ESP_BLE_MESH_NODE_PROV_LINK_OPEN_EVT, bearer PB-ADV
+rary,
+ available at "File > Examples > Examples from Custom Libraries / IRremote".
+Start with the SimpleReceiver or SimpleSender example.
+The examples are documented here:
+ https://github.com/Arduino-IRremote/Arduino-IRremote?tab=readme-ov-file#examples-for-this-library
+
+Or just downgrade your library to version 2.6.0.
+
+Thanks
+**************************************************************************************************
+
+
+Dummy IR test message - waiting for IR signal...
+Dummy IR test message - waiting for IR signal...
+Dummy IR test message - waiting for IR signal...
+[0;32mI (3392) EXAMPLE: ESP_BLE_MESH_NODE_PROV_COMPLETE_EVT[0m
+[0;32mI (3392) EXAMPLE: net_idx 0x000, addr 0x0005[0m
+[0;32mI (3392) EXAMPLE: flags 0x00, iv_index 0x00000000[0m
+[0;32mI (3648) EXAMPLE: ESP_BLE_MESH_NODE_PROV_LINK_CLOSE_EVT, bearer PB-ADV[0m
+Dummy IR test message - waiting for IR signal...
+[0;32mI (4118) EXAMPLE: ESP_BLE_MESH_MODEL_OP_APP_KEY_ADD[0m
+[0;32mI (4119) EXAMPLE: net_idx 0x0000, app_idx 0x0000[0m
+[0;32mI (4119) AppKey: 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12[0m
+[0;32mI (4264) EXAMPLE: ESP_BLE_MESH_MODEL_OP_MODEL_APP_BIND[0m
+[0;32mI (4264) EXAMPLE: elem_addr 0x0005, app_idx 0x0000, cid 0xffff, mod_id 0x1100[0m
+[0;32mI (4339) EXAMPLE: ESP_BLE_MESH_MODEL_OP_MODEL_APP_BIND[0m
+[0;32mI (4340) EXAMPLE: elem_addr 0x0005, app_idx 0x0000, cid 0xffff, mod_id 0x1101[0m
+Dummy IR test message - waiting for IR signal...
+Dummy IR test message - waiting for IR signal...
+[0;33mW (5773) BT_HCI: hcif disc complete: hdl 0x2, rsn 0x13[0m
+Dummy IR test message - waiting for IR signal...
+Dummy IR test message - waiting for IR signal...
+Dummy IR test message - waiting for IR signal...
+Dummy IR test message - waiting for IR signal...

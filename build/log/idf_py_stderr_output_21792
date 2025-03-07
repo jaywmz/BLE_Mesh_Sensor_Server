@@ -1,0 +1,7 @@
+ESP Insights Project commit: v5.4-dirty
+ESP RainMaker Project commit: v5.4-dirty
+CMake Error at components/arduino/CMakeLists.txt:375 (message):
+  esp32-arduino requires CONFIG_FREERTOS_HZ=1000 (currently 100)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
