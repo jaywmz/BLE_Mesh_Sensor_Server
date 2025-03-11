@@ -1,4 +1,4 @@
-/* * Data converted from C:/Espressif/frameworks/esp-idf-v5.4/examples/bluetooth/esp_ble_mesh/sensor_models/sensor_server/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/Liang Zhi/Documents/IoT Main Proj/BLE_Mesh_Sensor_Server/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

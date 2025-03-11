@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: C:\Espressif\frameworks\esp-idf-v5.4\examples\bluetooth\esp_ble_mesh\sensor_models\sensor_server\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: C:\Users\Liang Zhi\Documents\IoT Main Proj\BLE_Mesh_Sensor_Server\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

@@ -1,0 +1,82 @@
+ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x1 (POWERON),boot:0xc (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1574
+load:0x403cc710,len:0xc30
+load:0x403ce710,len:0x2f58
+entry 0x403cc71a
+[0;32mI (30) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time Mar 11 2025 23:31:14[0m
+[0;32mI (30) boot: chip revision: v0.3[0m
+[0;32mI (31) boot: efuse block revision: v1.1[0m
+[0;32mI (34) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (38) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3c0c0020 size=2c318h (181016) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=0003c340 vaddr=3fc94a00 size=032e8h ( 13032) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0003f630 vaddr=40380000 size=009e8h (  2536) load[0m
+[0;32mI (122) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=bd2b0h (774832) map[0m
+[0;32mI (253) esp_image: segment 4: paddr=000fd2d8 vaddr=403809e8 size=14008h ( 81928) load[0m
+[0;32mI (268) esp_image: segment 5: paddr=001112e8 vaddr=50000200 size=0001ch (    28) load[0m
+[0;32mI (275) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (275) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Unicore app[0m
+[0;32mI (294) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (295) app_init: Application information:[0m
+[0;32mI (295) app_init: Project name:     sensor_server[0m
+[0;32mI (299) app_init: App version:      660cc9d-dirty[0m
+[0;32mI (303) app_init: Compile time:     Mar 11 2025 23:30:28[0m
+[0;32mI (309) app_init: ELF file SHA256:  6751d2b98...[0m
+[0;32mI (313) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (317) efuse_init: Min chip rev:     v0.3[0m
+[0;32mI (321) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (325) efuse_init: Chip rev:         v0.3[0m
+[0;32mI (329) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (335) heap_init: At 3FC9FB50 len 000204B0 (129 KiB): RAM[0m
+[0;32mI (340) heap_init: At 3FCC0000 len 0001C710 (113 KiB): Retention RAM[0m
+[0;32mI (346) heap_init: At 3FCDC710 len 00002950 (10 KiB): Retention RAM[0m
+[0;32mI (352) heap_init: At 5000021C len 00001DCC (7 KiB): RTCRAM[0m
+[0;32mI (358) spi_flash: detected chip: generic[0m
+[0;32mI (361) spi_flash: flash io: dio[0m
+[0;33mW (364) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (377) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (383) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (389) coexist: coex firmware version: 49a8cdc[0m
+[0;32mI (408) coexist: coexist rom version 9387209[0m
+[0;32mI (408) main_task: Started on CPU0[0m
+[0;32mI (408) main_task: Calling app_main()[0m
+[0;32mI (408) EXAMPLE: Initializing...[0m
+[0;32mI (414) gpio: GPIO[8]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (418) gpio: GPIO[8]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (426) gpio: GPIO[8]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (434) BLE_INIT: BT controller compile version [d752dea][0m
+[0;32mI (440) BLE_INIT: Bluetooth MAC: 84:f7:03:a9:69:46[0m
+[0;32mI (445) phy_init: phy_version 1180,01f2a49,Jun  4 2024,16:34:25[0m
+[0;32mI (559) EXAMPLE: ESP_BLE_MESH_PROV_REGISTER_COMP_EVT, err_code 0[0m
+[0;32mI (564) EXAMPLE: ESP_BLE_MESH_NODE_PROV_ENABLE_COMP_EVT, err_code 0[0m
+[0;32mI (565) EXAMPLE: BLE Mesh sensor server initialized[0m
+
+DHT22 Temperature Sensor Initialized.
+[0;32mI (568) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (2576) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (2577) gpio: GPIO[4]| InputEn: 1| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (2583) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+Hello TestHello TestFailed to read from DHT sensor! (humidity: nan, temp: nan, fahrenheit: nan)
+[0;32mI (4687) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (4688) gpio: GPIO[4]| InputEn: 1| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (4694) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+Hello TestHello TestFailed to read from DHT sensor! (humidity: nan, temp: nan, fahrenheit: nan)
+[0;32mI (6798) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (6799) gpio: GPIO[4]| InputEn: 1| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (6805) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+Hello TestHello TestFailed to read from DHT sensor! (humidity: nan, temp: nan, fahrenheit: nan)

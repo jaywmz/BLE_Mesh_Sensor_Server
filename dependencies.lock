@@ -287,7 +287,7 @@ dependencies:
   example_init:
     dependencies: []
     source:
-      path: C:\Espressif\frameworks\esp-idf-v5.4\examples\bluetooth\esp_ble_mesh\common_components\example_init
+      path: C:\ESPRESSIF\frameworks\esp-idf-v5.4\examples\bluetooth\esp_ble_mesh\common_components\example_init
       type: local
     version: '*'
   idf:

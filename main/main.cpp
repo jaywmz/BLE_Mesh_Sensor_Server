@@ -11,6 +11,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <inttypes.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include <DHT.h> 
 
 #include "esp_log.h"
 #include "nvs_flash.h"
@@ -25,8 +28,8 @@
 #include "ble_mesh_example_init.h"
 #include "board.h"
 
-extern void setupIRTest();
-extern void loopIRTest();
+extern void tempsetup();
+extern void temploop();
 
 
 #define TAG "EXAMPLE"
@@ -652,17 +655,17 @@ extern "C" void app_main(void)
         ESP_LOGE(TAG, "Bluetooth mesh init failed (err %d)", err);
     }
     // -----------------------------
-    // ARDUINO + IRREMOTE TEST CODE
+    // ARDUINO + Temperature
     // -----------------------------
     // 1. Initialize Arduino environment
     initArduino();
 
-    // 2. Call IR test setup once
-    setupIRTest();
+    // 2. Call Temperature setup
+    tempsetup();
 
-    // 3. Repeatedly call IR test loop
+    // 3. Repeatedly call Temp task  loop
     while (true) {
-        loopIRTest();
+        temploop();
         // A small delay to avoid overloading the CPU
         vTaskDelay(10 / portTICK_PERIOD_MS);
     }
