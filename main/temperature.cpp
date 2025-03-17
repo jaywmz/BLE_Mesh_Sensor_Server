@@ -59,26 +59,26 @@ void temploop() {
 
 
 //Demo Code
-void temploop() {
+void temploop(
+    float *humidity, float *temperature, float *fahrenheit, float *heatIndexC, float *heatIndexF
+) {
     srand(time(NULL));
 
-    while (true) {
-        vTaskDelay(pdMS_TO_TICKS(2000)); 
+    vTaskDelay(pdMS_TO_TICKS(2000)); 
         
-        // Generate random humidity values in the range 83.8% - 85.3%
-        float humidity = 83.8 + (rand() % 16) / 10.0; 
+    // Generate random humidity values in the range 83.8% - 85.3%
+    *humidity = 83.8 + (rand() % 16) / 10.0; 
 
-        // Generate random temperature values in the range 26.3°C - 26.6°C
-        float temperature = 26.3 + (rand() % 4) / 10.0; 
-        float fahrenheit = (temperature * 9 / 5) + 32;
+    // Generate random temperature values in the range 26.3°C - 26.6°C
+    *temperature = 26.3 + (rand() % 4) / 10.0; 
+    *fahrenheit = (*temperature * 9 / 5) + 32;
 
-        // Generate random heat index values
-        float heatIndexC = 28.46 + (rand() % 81) / 100.0;  // Range: 28.46 - 29.26
-        float heatIndexF = (heatIndexC * 9 / 5) + 32;
+    // Generate random heat index values
+    *heatIndexC = 28.46 + (rand() % 81) / 100.0;  // Range: 28.46 - 29.26
+    *heatIndexF = (*heatIndexC * 9 / 5) + 32;
 
-        // Print values
-        printf("Humidity: %.2f%%  Temperature: %.2f°C %.2f°F  Heat index: %.2f°C %.2f°F\n",
-               humidity, temperature, fahrenheit, heatIndexC, heatIndexF);
-    }
+    // Print values
+    // printf("Humidity: %.2f%%  Temperature: %.2f°C %.2f°F  Heat index: %.2f°C %.2f°F\n",
+    //        humidity, temperature, fahrenheit, heatIndexC, heatIndexF);
 }
     

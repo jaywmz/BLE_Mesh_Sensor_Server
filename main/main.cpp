@@ -29,7 +29,7 @@
 #include "board.h"
 
 extern void tempsetup();
-extern void temploop();
+extern void temploop(float *humidity, float *temperature, float *fahrenheit, float *heatIndexC, float *heatIndexF);
 
 
 #define TAG "EXAMPLE"
@@ -45,8 +45,8 @@ extern void temploop();
  * Minimum value: -64.0, maximum value: 63.5.
  * A value of 0xFF represents 'value is not known'.
  */
-static int8_t indoor_temp = 40;     /* Indoor temperature is 20 Degrees Celsius */
-static int8_t outdoor_temp = 60;    /* Outdoor temperature is 30 Degrees Celsius */
+static int8_t g_humidity = 40;     /* Indoor temperature is 20 Degrees Celsius */
+static int8_t g_temperature = 60;    /* Outdoor temperature is 30 Degrees Celsius */
 
 #define SENSOR_POSITIVE_TOLERANCE   ESP_BLE_MESH_SENSOR_UNSPECIFIED_POS_TOLERANCE
 #define SENSOR_NEGATIVE_TOLERANCE   ESP_BLE_MESH_SENSOR_UNSPECIFIED_NEG_TOLERANCE
@@ -175,8 +175,8 @@ static void prov_complete(uint16_t net_idx, uint16_t addr, uint8_t flags, uint32
     board_led_operation(LED_G, LED_OFF);
 
     /* Initialize the indoor and outdoor temperatures for each sensor.  */
-    net_buf_simple_add_u8(&sensor_data_0, indoor_temp);
-    net_buf_simple_add_u8(&sensor_data_1, outdoor_temp);
+    net_buf_simple_add_u8(&sensor_data_0, g_humidity);
+    net_buf_simple_add_u8(&sensor_data_1, g_temperature);
 }
 
 static void example_ble_mesh_provisioning_cb(esp_ble_mesh_prov_cb_event_t event,
@@ -665,7 +665,17 @@ extern "C" void app_main(void)
 
     // 3. Repeatedly call Temp task  loop
     while (true) {
-        temploop();
+        static float humidity = 0.0;
+        static float temperature = 0.0;
+        static float fahrenheit = 0.0;
+        static float heatIndexC = 0.0;
+        static float heatIndexF = 0.0;
+        temploop(&humidity, &temperature, &fahrenheit, &heatIndexC, &heatIndexF);
+        g_humidity = static_cast<int8_t>(humidity);  
+        g_temperature = static_cast<int8_t>(temperature); 
+        ESP_LOGI(TAG, "humidity: %d, temp: %d", g_humidity, g_temperature);
+        // ESP_LOGI(TAG, "Humidity: %.2f%%  Temperature: %.2f°C %.2f°F  Heat index: %.2f°C %.2f°F",
+        //     humidity, temperature, fahrenheit, heatIndexC, heatIndexF);
         // A small delay to avoid overloading the CPU
         vTaskDelay(10 / portTICK_PERIOD_MS);
     }
