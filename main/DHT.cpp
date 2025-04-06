@@ -120,7 +120,6 @@ float DHT::readTemperature(bool S, bool force) {
       break;
     }
   }
-  printf("Hello Test");
   return f;
 }
 
