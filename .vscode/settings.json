@@ -6,7 +6,7 @@
         "board/esp32c3-builtin.cfg"
     ],
     "idf.portWin": "COM10",
-    "idf.port": "/dev/ttyACM1",
+    "idf.port": "/dev/tty.usbserial-54240324381",
     "idf.flashType": "UART",
     "files.associations": {
         "array": "cpp",

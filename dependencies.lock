@@ -178,13 +178,13 @@ dependencies:
   espressif/esp_rcp_update:
     component_hash: c10afbd54a17f27eed880e61262b161656e6d36ad63376c307f9273e99d0abcd
     dependencies:
-    - name: idf
-      require: private
-      version: '>=5.0'
     - name: espressif/esp-serial-flasher
       registry_url: https://components.espressif.com
       require: private
       version: ~0.0.0
+    - name: idf
+      require: private
+      version: '>=5.0'
     source:
       registry_url: https://components.espressif.com
       type: service
@@ -251,7 +251,7 @@ dependencies:
       type: service
     version: 1.0.20~2
   espressif/mdns:
-    component_hash: 7fd79958fd0b9a4917ee4f50141fe29c902c02d1a1feb1d6751276049b186d6b
+    component_hash: 3ec0af5f6bce310512e90f482388d21cc7c0e99668172d2f895356165fc6f7c5
     dependencies:
     - name: idf
       require: private
@@ -259,7 +259,7 @@ dependencies:
     source:
       registry_url: https://components.espressif.com/
       type: service
-    version: 1.8.0
+    version: 1.8.2
   espressif/network_provisioning:
     component_hash: ef2e10182fd1861e68b821491916327c25416ca7ae70e5a6e43313dbc71fe993
     dependencies:
@@ -287,7 +287,7 @@ dependencies:
   example_init:
     dependencies: []
     source:
-      path: /home/localhost/esp/v5.4/esp-idf/examples/bluetooth/esp_ble_mesh/common_components/example_init
+      path: /Users/lennoxvitali/esp/v5.4/esp-idf/examples/bluetooth/esp_ble_mesh/common_components/example_init
       type: local
     version: '*'
   idf:
